@@ -1151,8 +1151,7 @@
                 </div>
             </div>
             <div class="contact-form">
-                <form id="contactForm" action="https://submit-form.com/ug7idEJJy" data-botpoison-public-key="pk_3700a5dd-bbba-402a-a845-db2dada26414">
-                    <input type="hidden" name="_redirect" value="https://mattortiz.net" />
+                <form id="contactForm" data-botpoison-public-key="pk_3700a5dd-bbba-402a-a845-db2dada26414">
                     <div class="form-group">
                         <label for="name">Full Name</label>
                         <input type="text" id="name" name="name" required>
@@ -1280,9 +1279,7 @@
                 const formData = new FormData(contactForm);
                 const data = {};
                 formData.forEach((value, key) => {
-                    if (key !== '_redirect') {
-                        data[key] = value;
-                    }
+                    data[key] = value;
                 });
 
                 // Add Botpoison solution to form data
