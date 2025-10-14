@@ -3,7 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoTech - Technology Solutions for Your Business</title>
+    <title>MoTech - Technology Solutions for Your Business | Business Internet, Cybersecurity & Cloud Services</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="MoTech provides expert technology consulting for businesses. Get reliable internet, cybersecurity, cloud services, and phone systems with 25+ years of experience. Free consultations available.">
+    <meta name="keywords" content="business internet, cybersecurity, cloud services, business phone systems, technology consulting, IT solutions, network setup, data backup, VoIP">
+    <meta name="author" content="Matt Ortiz">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mattortiz.net">
+
+    <!-- Geographic and Business Info -->
+    <meta name="geo.region" content="US">
+    <meta name="geo.placename" content="Alexandria, VA">
+    <meta name="ICBM" content="38.8048, -77.0469">
+
+    <!-- Language and Content -->
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="rating" content="General">
+
+    <!-- Open Graph Tags for Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MoTech - Technology Solutions for Your Business">
+    <meta property="og:description" content="Expert technology consulting for businesses. Get reliable internet, cybersecurity, cloud services, and phone systems with 25+ years of experience.">
+    <meta property="og:url" content="https://mattortiz.net">
+    <meta property="og:site_name" content="MoTech">
+    <meta property="og:image" content="https://mattortiz.net/MoTech-social-share.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="MoTech - Professional Technology Solutions and Consulting Services">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MoTech - Technology Solutions for Your Business">
+    <meta name="twitter:description" content="Expert technology consulting for businesses. Get reliable internet, cybersecurity, cloud services, and phone systems with 25+ years of experience.">
+    <meta name="twitter:image" content="https://mattortiz.net/MoTech-social-share.png">
+    <meta name="twitter:image:alt" content="MoTech - Professional Technology Solutions and Consulting Services">
+
+    <!-- Additional SEO and Performance Tags -->
+    <meta name="theme-color" content="#6366f1">
+    <meta name="msapplication-TileColor" content="#6366f1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="MoTech">
+
+    <!-- Favicon - Modern Best Practices -->
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/web-app-manifest-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon/web-app-manifest-512x512.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    <!-- Performance and Preloading -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//submit-form.com">
+    <link rel="dns-prefetch" href="//challenges.cloudflare.com">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -92,14 +151,11 @@
             gap: 0.75rem;
         }
 
-        .logo::before {
-            content: '';
-            width: 8px;
-            height: 8px;
-            background: var(--gradient-primary);
-            border-radius: 2px;
-            display: inline-block;
-            transform: rotate(45deg);
+        .logo-image {
+            height: 40px;
+            width: auto;
+            display: block;
+            filter: drop-shadow(0 2px 8px rgba(99, 102, 241, 0.15));
         }
 
         .logo-text {
@@ -748,6 +804,16 @@
             font-weight: 700;
             color: var(--text-primary);
             margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+        }
+
+        .footer-logo img {
+            height: 32px;
+            width: auto;
+            filter: drop-shadow(0 2px 8px rgba(99, 102, 241, 0.15));
         }
 
         .footer p {
@@ -934,6 +1000,88 @@
         .service-card:nth-child(3) { animation-delay: 0.3s; }
         .service-card:nth-child(4) { animation-delay: 0.4s; }
     </style>
+    <!-- Structured Data for Local Business SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "MoTech",
+        "description": "Expert technology consulting for businesses. Providing reliable internet, cybersecurity, cloud services, and phone systems with 25+ years of experience.",
+        "url": "https://mattortiz.net",
+        "logo": "https://mattortiz.net/MoTech.png",
+        "image": "https://mattortiz.net/MoTech-social-share.png",
+        "telephone": "+1-202-596-9330",
+        "email": "matt@mattortiz.net",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Alexandria",
+            "addressRegion": "VA",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "38.8048",
+            "longitude": "-77.0469"
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Matt Ortiz"
+        },
+        "sameAs": [
+            "https://linkedin.com/in/mattortiz"
+        ],
+        "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "38.8048",
+                "longitude": "-77.0469"
+            },
+            "geoRadius": "50000"
+        },
+        "priceRange": "$$",
+        "openingHours": "Mo-Fr 09:00-17:00",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Technology Solutions",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Business Internet & Networking",
+                        "description": "Business internet, network setup, WiFi solutions, and backup connections"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Cybersecurity Protection",
+                        "description": "Firewall, antivirus, email security, data backup, and security training"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Cloud Services & Hosting",
+                        "description": "Microsoft 365, Google Workspace, cloud storage, and hosting solutions"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Business Phone Systems",
+                        "description": "VoIP systems, video conferencing, and mobile communication solutions"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
@@ -941,7 +1089,8 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="#home" class="logo">
-                <span class="logo-text">MoTech</span>
+                <img src="MoTech.png" alt="MoTech Logo" class="logo-image">
+                <!-- <span class="logo-text">MoTech</span> -->
             </a>
             <button class="mobile-menu-btn" aria-label="Toggle menu">
                 <span></span>
@@ -1183,7 +1332,10 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <div class="footer-logo">MoTech</div>
+            <div class="footer-logo">
+                <img src="MoTech.png" alt="MoTech Logo">
+                <!-- MoTech -->
+            </div>
             <p>&copy; 2025 MoTech. All rights reserved.</p>
             <p>Technology Solutions for Your Business</p>
             <div class="social-links">
